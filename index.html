@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>welcome vue</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<!-- Importo il file di Vue.js -->
+	<script src="https://unpkg.com/vue@3.4.27/dist/vue.global.js"></script>
+	<div id="app">
+        <h1>Hello {{ firstName }} {{ lastName }}!</h1>
+		<h2 :class="titleClass">{{ message }}</h2>
+    </div>
+     <!-- JS -->
+    <script src="./main.js"></script>
